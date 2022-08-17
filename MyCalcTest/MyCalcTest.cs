@@ -15,6 +15,9 @@ namespace LabExercise
         }
         [DataTestMethod]
         [DataRow(10,20,-10)]
+        [DataRow(10,50,-10)]
+        [DataRow(10,60,-10)]
+
          public void TestDataSubMethod(double op1,double op2,double op3)
         {
 
